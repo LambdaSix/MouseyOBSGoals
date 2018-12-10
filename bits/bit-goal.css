@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow: hidden;
+}
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+body > div {
+  width: 100%;
+}
+#wrap {
+  font-family: Oswald, sans-serif;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.goal-cont {
+  font-size: 18px;
+  position: relative;
+  text-transform: uppercase;
+  width: 100%;
+}
+.goal-cont > div {
+  position: relative;
+  line-height: 1em;
+}
+#goal-progress {
+  position: absolute;
+  color: {goalTextColor};
+  text-align: center;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  display: block;
+}
+#title
+{
+  color: {titleTextColor};
+  visibility: {titleTextVisibility};
+  font-size: 16px;
+  line-height: 1em;
+}

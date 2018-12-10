@@ -1,0 +1,21 @@
+{
+    "goalTextColor": {
+        "label": "Goal Text Colour",
+        "type": "colorpicker",
+        "value": "#000EF0"
+    },
+    "titleTextColor": {
+        "label": "Title Text Color",
+        "type": "colorpicker",
+        "value": "#D00F32"
+    },
+    "titleTextVisibility": {
+        "label": "Dropdown Example",
+        "type": "dropdown",
+        "options": {
+            "visible": "Visible",
+            "hidden": "Hidden"
+        },
+        "value": "visible"
+    }
+}
